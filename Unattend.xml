@@ -14,19 +14,18 @@
             </OOBE>
             <TimeZone>Romance Standard Time</TimeZone>
             <UserAccounts>
-                <AdministratorPassword>
-                    <Value>TgBvAHQAMgA0AGcAZQB0AEAASQBJAEEAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcgBQAGEAcwBzAHcAbwByAGQA</Value>
-                    <PlainText>false</PlainText>
-                </AdministratorPassword>
-                <DomainAccounts>
-                    <DomainAccountList wcm:action="add">
-                        <Domain>LULA.DOM</Domain>
-                        <DomainAccount wcm:action="add">
-                            <Group>Administrators</Group>
-                            <Name>MasterPC</Name>
-                        </DomainAccount>
-                    </DomainAccountList>
-                </DomainAccounts>
+                <LocalAccounts>
+                    <LocalAccount wcm:action="add">
+                        <Password>
+                            <Value>TgBvAHQAMgA0AGcAZQB0AEAASQBJAEEAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                            <PlainText>false</PlainText>
+                        </Password>
+                        <Group>Administrators</Group>
+                        <Name>adminlocal</Name>
+                        <DisplayName>AdminLocal</DisplayName>
+                        <Description>Administrateur Local</Description>
+                    </LocalAccount>
+                </LocalAccounts>
             </UserAccounts>
         </component>
         <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
